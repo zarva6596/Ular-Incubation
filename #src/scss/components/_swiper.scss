@@ -1,0 +1,52 @@
+.info .swiper {
+   &-wrapper {
+   }
+
+   &-slide {
+      transform: scale(0.25);
+      transition: all .5s;
+      opacity: 0.6;
+
+      &-active {
+         transform: scale(1);
+         opacity: 1;
+      }
+   }
+
+   &__photo {
+      border-radius: 20px;
+   }
+
+   &-button {
+      &-prev:after,
+      &-next:after {
+         color: #000;
+      }
+   }
+
+   &-pagination {
+      position: static;
+      margin: 44px 0 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &-bullet {
+         background-color: #c4c4c4;
+         opacity: 1;
+         height: 7px;
+         width: 7px;
+         transition: background-color .5s;
+
+         &-active {
+            height: 13px;
+            width: 13px;
+            background-color: #333;
+         }
+      }
+   }
+}
+
+.wrapper {
+   padding: 30px;
+}

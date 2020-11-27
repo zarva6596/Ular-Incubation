@@ -1,0 +1,34 @@
+.advantage {
+   position: relative;
+ 
+   &::before {
+     z-index: -1;
+     content: "";
+     height: 15px;
+     width: 100%;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-150%);
+     left: 0;
+     background-color: $advantage-line;
+   }
+ 
+   &__list {
+     display: flex;
+     justify-content: space-evenly;
+   }
+ 
+   &__image-box {
+     background-color: #fff;
+     border: 15px solid $advantage-line;
+     border-radius: 50%;
+     padding: 58px;
+     margin-bottom: 20px;
+     position: relative;
+   }
+ 
+   &__item {
+     text-align: center;
+   }
+ }
+ 

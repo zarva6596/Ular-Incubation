@@ -1,0 +1,26 @@
+.lang {
+   display: flex;
+ 
+   &__item {
+     display: none;
+ 
+     &:hover {
+       cursor: pointer;
+     }
+ 
+     &--active {
+       display: inline;
+     }
+   }
+ 
+   &__arrow {
+     display: block;
+     transform: rotate(90deg);
+     margin-right: 5px;
+ 
+     &:hover {
+       cursor: pointer;
+     }
+   }
+ }
+ 

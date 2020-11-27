@@ -1,0 +1,32 @@
+.infoScrollText {
+   padding-left: 140px;
+   padding-right: 140px;
+
+   &__heading {
+      font-size: 40px;
+      line-height: 79px;
+   }
+
+   &__text {
+      max-width: 860px;
+      height: 200px;
+      margin: 0 auto;
+      overflow-y: scroll;
+      font-size: 18px;
+      line-height: 28px;
+      padding-right: 30px;
+      scrollbar-width: 3px;
+      
+      &::-webkit-scrollbar-track {
+         background-color:#e6e6e6;
+      }
+
+      &::-webkit-scrollbar-thumb {
+         background-color: $main-color;
+      }
+
+      &::-webkit-scrollbar {
+         width: 4px;
+      }
+   }
+}

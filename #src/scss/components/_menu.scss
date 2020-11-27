@@ -1,0 +1,40 @@
+.primary-menu {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   margin-bottom: 0;
+ }
+ 
+ .menu {
+   &-item {
+     margin-right: 36px;
+     position: relative;
+ 
+     &:hover {
+       text-decoration: none;
+ 
+       &::after {
+         content: "";
+         height: 25px;
+         width: 25px;
+         background-image: url("../img/menu-hover.svg");
+         background-repeat: no-repeat;
+         background-position: center;
+         position: absolute;
+         left: -11px;
+         top: -4px;
+ 
+       }
+     }
+ 
+     &:last-of-type {
+       margin-right: 0;
+     }
+ 
+     &__link {
+       color: #333;
+       font-size: 14px;
+     }
+   }
+ }
+ 

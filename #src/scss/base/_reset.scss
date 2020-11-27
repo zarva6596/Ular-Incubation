@@ -1,0 +1,51 @@
+html {
+   height: 100%;
+   overflow-x: hidden;
+ }
+ 
+ html,
+ body,
+ a,
+ p,
+ ul,
+ li,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ button,
+ input,
+ textarea {
+   scroll-behavior: smooth;
+   margin: 0;
+   padding: 0;
+   line-height: 1;
+   list-style: none;
+   border-width: 0;
+   font-family: 'Gilroy', sans-serif;
+   color: #333;
+ }
+ 
+ a {
+   text-decoration: none;
+ }
+ 
+ * {
+   box-sizing: border-box;
+   outline: none;
+   z-index: 1;
+ }
+ 
+ body {
+   overflow-x: hidden;
+   line-height: 1;
+   height: 100%;
+   position: relative;
+ }
+ 
+ strong {
+   font-weight: 500;
+ }
+ 
